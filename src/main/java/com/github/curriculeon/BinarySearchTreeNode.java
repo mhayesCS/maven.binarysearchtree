@@ -21,7 +21,7 @@ public class BinarySearchTreeNode<Key extends Comparable<Key>, Value> {
     }
 
     public void setKey(Key key) {
-        // TODO
+        this.key = key;
     }
 
     public Value getValue() {
