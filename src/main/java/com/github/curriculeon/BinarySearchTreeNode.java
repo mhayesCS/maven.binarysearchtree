@@ -25,11 +25,11 @@ public class BinarySearchTreeNode<Key extends Comparable<Key>, Value> {
     }
 
     public Value getValue() {
-        return null; // TODO
+        return value;
     }
 
     public void setValue(Value value) {
-        // TODO
+        this.value = value;
     }
 
     public BinarySearchTreeNode<Key, Value> getLeft() {
